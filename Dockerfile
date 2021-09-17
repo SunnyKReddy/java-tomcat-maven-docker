@@ -1,5 +1,4 @@
 FROM ubuntu:16.04
-FROM tomcat:8.0
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y curl && \
